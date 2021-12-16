@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">Recipe Page</h1>
+<h1 align="center">Checkout Page</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,15 +8,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://wy-chan.github.io/devchallenges_RecipePage">
+    <a href="https://wy-chan.github.io/devchallenges_CheckoutPage">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/wy-chan/devchallenges_RecipePage">
+    <a href="https://github.com/wy-chan/devchallenges_CheckoutPage">
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht">
+    <a href="https://devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO">
       Challenge
     </a>
   </h3>
@@ -39,24 +39,27 @@
 
 <img src="images/screenshot0.png" alt="screenshot" height="800">&nbsp;&nbsp;<img src="images/screenshot_mobile0.png" alt="screenshot" height="800">&nbsp;&nbsp;<img src="images/screenshot_mobile1.png" alt="screenshot" height="800">
 
-See demo here: https://wy-chan.github.io/devchallenges_RecipePage/
+See demo here: https://wy-chan.github.io/devchallenges_CheckoutPage/
 
-I created a page based on the given design. This challenge helps me to learn more about checkbox and lists(ordered list/ unordered list).
+I created a page based on the given design. 
 
 ### Built With
 
 - HTML
-- CSS, flexbox
+- CSS
 
 ## Features
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht) was to build an application to complete the following user stories:
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO) was to build an application to complete the following user stories:
 
 - [x] User story: I can see a recipe with ingredients and instructions
-- [x] User story: I can select a checkbox if I have the ingredients
-- [x] User story: I can see the number of servings, baking times
+- [x] User story: I can input email, phone, full name, address, city, country, and postal code
+- [x] User story: I can input the number of items
+- [x] User story: I can select at least 3 countries from the dropdown
+- [x] User story: When I click submit button or press enter, I can see a warning if validation fails
+- [x] User story: When I click submit button or press enter, I can see a successful alert if validation succeeds
 
 
 ## Acknowledgements
