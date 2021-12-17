@@ -54,7 +54,7 @@ I created a page based on the given design.
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO) was to build an application to complete the following user stories:
 
-- [x] User story: I can see a recipe with ingredients and instructions
+- [x] User story: I can see a page following the given design
 - [x] User story: I can input email, phone, full name, address, city, country, and postal code
 - [x] User story: I can input the number of items
 - [x] User story: I can select at least 3 countries from the dropdown
