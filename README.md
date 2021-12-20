@@ -37,7 +37,7 @@
 
 ## Overview
 
-<img src="images/Screenshot.png" alt="screenshot" height="800">&nbsp;&nbsp;<img src="images/Screenshot_m.png" alt="screenshot" height="800">
+<img src="images/Screenshot.png" alt="screenshot" height="400">&nbsp;&nbsp;<img src="images/Screenshot_m.png" alt="screenshot" height="400">
 
 See demo here: https://wy-chan.github.io/devchallenges_CheckoutPage/
 
