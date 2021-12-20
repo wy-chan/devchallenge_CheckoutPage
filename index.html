@@ -11,12 +11,208 @@
   </head>
   
 <body>
+
+
+<div class="submit-message-box hide"  id="submit-message-box">
+    <div class="submit-message">
+     
+      <p class="success-text"> <span class="material-icons">
+check_circle_outline
+</span> Successful</p>
+
+       <p>Thank you for your order.</p>
+      
+      <button class="ok-btn" onClick="hideMessage()">OK</button>
+    </div>
+  </div>
+
+
 <main>
+  <h1>Checkout</h1>
+  
 
+  
+  <form target="hiddenFrame">
+
+    <div class="checkout-info">
+      
+      <section id="Preview">
+    <div class="cart-items-box">
+      <div class="cart-items">
+  <div class="cart-box">
+    <img src="https://raw.githubusercontent.com/wy-chan/devchallenges_CheckoutPage/main/images/photo1.png" alt="Product Photo" class="product-photo">
+    <div class="cart-box-text">
+      <h3>Vintage Backbag</h3>
+      <div class="prices">
+      <input class="new-price" value="$54.99" disabled>
+      <span class="old-price">$94.99</span>
+      </div>
+      <div class="cart-box-text-num">
+        <button class="minus-btn" onClick="minusNumber(0)">
+          <span class="material-icons">
+          remove
+          </span>
+        </button>
+        <input class="order-number" value="1" disabled>
+        <button class="plus-btn" onClick="addNumber(0)">
+          <span class="material-icons">
+          add
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+    
+     <div class="cart-box">
+    <img src="https://raw.githubusercontent.com/wy-chan/devchallenges_CheckoutPage/main/images/photo2.png" alt="Product Photo" class="product-photo">
+    <div class="cart-box-text">
+      <h3>Levi Shoes</h3>
+      <div class="prices">
+     <input class="new-price" value="$74.99" disabled>
+      <span class="old-price">$124.99</span>
+        </div>
+      <div class="cart-box-text-num">
+        <button class="minus-btn" onClick="minusNumber(1)">
+          <span class="material-icons">
+          remove
+          </span>
+        </button>
+        <input class="order-number" value="1" disabled>
+        <button class="plus-btn" onClick="addNumber(1)">
+          <span class="material-icons">
+          add
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+     </div>
+      
+        </div>
+    
+    <div class="cart-info shipping-info">
+      <h2>Shipping</h2>
+      <p id="shipping-cost">$19</p>
+    </div>
+    
+       <div class="cart-info total-info">
+      <h2>Total</h2>
+      <input id="total-price" value="$148.98" disabled>
+    </div>
+    
+</section>
+      
+    <div class="input-area"> 
+ <section id="Contact-infomation">
+   
+   <h2>Contact infomation</h2>
+   <div class="input-group input-group-mail-phone-name">
+
+     <label for="email" class="input-label">E-mail</label>
+
+      <div class="input-box">
+
+      <span class="material-icons">
+       email
+      </span>
+
+      <input class="text-input " id="email" name="email" type="email" placeholder="Enter your email..." required="required">
+   </div>
+   </div>
+   <div class="input-group input-group-mail-phone-name">
+     <label for="phone" class="input-label">Phone</label>
+      <div class="input-box">
+      <span class="material-icons">
+       phone
+      </span>
+      <input class="text-input" id="phone" name="phone" type="text" placeholder="Enter your phone..." required="required">
+   </div>
+   </div>
+   
+ </section>
+  
+ <section id="Shipping-address">
+  <h2>Shipping address</h2>
+   <div class="input-group input-group-mail-phone-name">
+     <label for="name" class="input-label">Full name</label>
+      <div class="input-box">
+      <span class="material-icons">
+       account_circle
+      </span>
+      <input class="text-input" id="name" name="name" type="text" placeholder="Your name..." required="required">
+   </div>
+   </div>
+   <div class="input-group input-group-address">
+     <label for="address" class="input-label">Address</label>
+      <div class="input-box">
+      <span class="material-icons">
+       home
+      </span>
+      <input class="text-input" id="address" name="address" type="text" placeholder="Your address..." required="required">
+   </div>
+   </div>
+   <div class="input-group input-group-address">
+     <label for="city" class="input-label">City</label>
+      <div class="input-box">
+      <span class="material-icons">
+       location_city
+      </span>
+      <input class="text-input" id="city" name="city" type="text" placeholder="Your city..." required="required">
+   </div>
+   </div>
+   
+<div class="country-postal input-group-address">
+   <div class="input-group input-country">
+     <label for="country" class="input-label">Country</label>
+      <div class="input-box">
+      <span class="material-icons">
+       public
+      </span>
+      <input class="text-input" id="country" name="country" type="text" placeholder="Your country..." list="A" required="required">
+        <datalist id="A">
+    <option value="country A">
+    <option value="country B">
+    <option value="country C">
+  </datalist>
+   </div>
+   </div>
+   <div class="input-group input-postal">
+     <label for="postal-code" class="input-label">Postal code</label>
+      <div class="input-box">
+      <span class="material-icons">
+       markunread_mailbox
+      </span>
+      <input class="text-input" id="postal-code" name="postal-code" type="text" placeholder="Your postal code..." required="required">
+   </div>
+        </div>
+    </div>
+  
+     <label for"save-info">
+     <input class"checkbox" type="checkbox">Save this information for next time
+     </label>
+     
+   </div>
+
+   
+</section>
+     </div>
+  
+  
+        </div>   
+
+    
+   <input type="submit" value="Continue" class="submit-btn">
+  </form>
+  
 </main>
-
+<iframe  name="hiddenFrame" class="hidden-frame hide" id="hidden-frame"></iframe>
+  
 
 <footer>
+<div class="my-footer">
 <span>created by <em>wy-chan</em> - devChallenges.io</span>
+</div>
 </footer>
+
+
 </body>
