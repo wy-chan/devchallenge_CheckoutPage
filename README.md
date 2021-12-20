@@ -41,12 +41,13 @@
 
 See demo here: https://wy-chan.github.io/devchallenges_CheckoutPage/
 
-I created a page based on the given design. 
+I created a page based on the given design. I learnt to make a form.
 
 ### Built With
 
 - HTML
 - CSS
+- JavaScript
 
 ## Features
 
