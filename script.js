@@ -25,6 +25,7 @@ function calTotal(p){
   e.value = "$" + e2.toFixed(2);
 }
 
+function showMessage(){
 const form = document.querySelector('form');
 const thankYouMessage = document.querySelector('#submit-message-box');
 document.getElementById("form").addEventListener('submit', (e) => {
@@ -32,6 +33,7 @@ document.getElementById("form").addEventListener('submit', (e) => {
   thankYouMessage.classList.remove('hide');
   setTimeout(() => form.submit(), 2000);
 });
+}
 
 function hideMessage(){
 document.getElementById("submit-message-box").classList.add("hide")
