@@ -39,6 +39,8 @@
 
 <img src="images/Screenshot.png" alt="screenshot" height="400">&nbsp;&nbsp;<img src="images/Screenshot_m.png" alt="screenshot" height="400">
 
+<img src="images/Screenshot_submit.png" alt="screenshot" height="400">&nbsp;&nbsp;<img src="images/Screenshot_submit_m.png" alt="screenshot" height="400">
+
 See demo here: https://wy-chan.github.io/devchallenges_CheckoutPage/
 
 I created a page based on the given design. I learnt to make a form.
