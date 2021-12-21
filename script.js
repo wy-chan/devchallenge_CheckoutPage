@@ -27,7 +27,7 @@ function calTotal(p){
 
 const form = document.querySelector('form');
 const thankYouMessage = document.querySelector('#submit-message-box');
-form.addEventListener('submit', (e) => {
+document.getElementById("form").addEventListener('submit', (e) => {
   e.preventDefault();
   thankYouMessage.classList.remove('hide');
   setTimeout(() => form.submit(), 2000);
